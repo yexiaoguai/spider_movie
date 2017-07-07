@@ -41,6 +41,6 @@ class SpiderMain(object):
         
 if __name__ == '__main__':
     # 爬取入口url
-    root_url = "https://movie.douban.com/subject/6873143/"
+    root_url = "https://movie.douban.com/subject/26844922/"
     obj_spider = SpiderMain()
     obj_spider.craw(root_url)  
